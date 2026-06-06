@@ -4,7 +4,7 @@ test.describe('Navigation & Responsiveness', () => {
   test('should navigate between pages on desktop viewport', async ({ page }) => {
     // Start at homepage (Library)
     await page.goto('/');
-    
+
     // Check main title on Library page
     await expect(page.getByRole('heading', { name: 'BIBLIOTHÈQUE' })).toBeVisible();
 
@@ -48,7 +48,7 @@ test.describe('Navigation & Responsiveness', () => {
 
     // Open hamburger menu
     await hamburgerBtn.click();
-    
+
     // Mobile menu container should now be expanded (max-h-64 class should be present)
     await expect(mobileMenuContainer).toHaveClass(/max-h-64/);
 

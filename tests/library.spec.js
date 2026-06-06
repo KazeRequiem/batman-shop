@@ -28,7 +28,6 @@ test.describe('Library Page', () => {
     }
 
     // Verify we have the correct number of comics in the grid
-    // ComicCard uses <h2> for comic.title, let's verify total headings in the grid
     const cards = page.locator('main h2');
     await expect(cards).toHaveCount(10);
   });
