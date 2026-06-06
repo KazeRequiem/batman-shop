@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 export default function LibraryPage() {
     const [comics, setComics] = useState([])
     const [loading, setLoading] = useState(true)
-    const [error, setError] = useState(null)
+    const [error] = useState(null)
 
     useEffect(() => {
         setTimeout(() => {
