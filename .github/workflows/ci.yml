@@ -26,3 +26,9 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Installation des navigateurs Playwright
+        run: npx playwright install --with-deps
+
+      - name: Exécution des tests Playwright
+        run: npx playwright test
