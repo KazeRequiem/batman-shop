@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette Batman */
+  --color-bat-black: #0A0A0A;
+  --color-bat-dark: #141414;
+  --color-bat-panel: #1E1E1E;
+  --color-bat-yellow: #FFD700;
+  --color-bat-gold: #C9A227;
+  --color-bat-gray: #3A3A3A;
+  --color-bat-light: #E8E8E8;
+  --color-bat-muted: #888888;
+
+  /* Polices */
+  --font-display: "Bebas Neue", cursive;
+  --font-body: "Nunito", sans-serif;
+
+  /* Shadows */
+  --shadow-bat: 4px 4px 0px #FFD700;
+  --shadow-bat-lg: 6px 6px 0px #FFD700;
+}
